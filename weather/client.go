@@ -7,19 +7,6 @@ import (
 	"os"
 )
 
-type Response struct {
-	Weather []struct {
-		Main        string `json:"main"`
-		Description string `json:"description"`
-	} `json:"weather"`
-
-	Main struct {
-		Temp     float64 `json:"temp"`
-		Humidity int     `json:"humidity"`
-	} `json:"main"`
-	Name string `json:"name"`
-}
-
 // CheckConnection tests the connection to OpenWeatherMap
 func CheckConnection() {
 	apiKey := os.Getenv("OPENWEATHER_API_KEY")

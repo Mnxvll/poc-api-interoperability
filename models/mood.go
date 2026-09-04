@@ -4,7 +4,7 @@ type GameMoodData struct {
 	Theme        string
 	ColorPalette string
 	Environment  GameEnvironment
-	stats        PlayerModifiers
+	Stats        PlayerModifiers
 }
 
 type GameEnvironment struct {
