@@ -1,6 +1,6 @@
 ## Data Mapping 
 
-Here is a visual representation of how the raw data structures translate into the domain models for the game.
+Here is a visual representation of how the raw data structures translate into the domain models for a game.
 
 ```mermaid
 classDiagram
