@@ -1,6 +1,6 @@
-# Contextual Game Generator
+# PoC: API Interoperability & Data Adapter
 
-Contextual Game Generator is a Go-based API service that acts as an interoperability layer. It fetches real-world data from external APIs (currently OpenWeatherMap) and translates it into contextual game states and environmental moods. 
+This Proof of Concept (PoC) is a Go-based service that acts as an interoperability layer. It fetches raw data from an external API and translates it into standardized domain models.
 
 This project explores the Adapter pattern to map varying external data structures into standardized domain models used by a game engine.
 
