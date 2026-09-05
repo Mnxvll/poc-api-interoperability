@@ -1,4 +1,4 @@
-module contextualgamegenerator
+module poc-api-interoperability
 
 go 1.27.0
 

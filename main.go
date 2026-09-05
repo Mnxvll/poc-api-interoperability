@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"contextualgamegenerator/handlers"
-	"contextualgamegenerator/weather"
+	"poc-api-interoperability/handlers"
+	"poc-api-interoperability/weather"
 
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
